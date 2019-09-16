@@ -1,0 +1,30 @@
+{
+  "name": "joi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -r esm index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RusimbiPatrick/Joi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RusimbiPatrick/Joi/issues"
+  },
+  "homepage": "https://github.com/RusimbiPatrick/Joi#readme",
+  "dependencies": {
+    "@hapi/joi": "^16.0.1",
+    "celebrate": "^10.0.1",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-validator": "^6.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
